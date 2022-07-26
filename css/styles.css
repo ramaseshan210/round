@@ -152,15 +152,22 @@ main {
 }
 
 main section {
-  border: 2px solid;
   min-height: 642px;
 }
 
 main .container {
-  border: 2px solid grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 1232px !important;
   height: 402px !important;
+  padding-bottom: 104px;
   padding-top: 136px;
+  padding-left: 0px;
+  padding-right: 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 main .left-side {
@@ -175,7 +182,6 @@ main .left-side {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 1px solid;
   min-height: 374px;
 }
 
@@ -317,6 +323,27 @@ main .left-side .Sign-up form .notice p a {
   font-style: bold;
   color: #111827;
   padding-left: 6px;
+}
+
+main .right-side {
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+main .right-side img {
+  position: absolute;
+  padding: 52px 76px 51px 76px;
+}
+
+main .right-side::after {
+  position: absolute;
+  content: url("../Images/Plate.png");
+  margin-left: 204px;
+  top: -88px;
+  z-index: -99;
 }
 
 main h1 {
