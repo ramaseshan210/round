@@ -85,6 +85,7 @@ header section:first-child .navigation nav ul a {
   display: flex;
   color: grey;
   font-weight: 500;
+  font-family: 'SF PRO Text';
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
@@ -149,6 +150,7 @@ header section:last-child ul li:last-child a {
 
 main {
   height: auto;
+  overflow-x: hidden;
 }
 
 main section {
@@ -197,6 +199,19 @@ main .left-side .text {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 224px;
+}
+
+main .left-side .text p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 28px;
+  color: gray;
+  font-style: normal;
+  font-size: 20px;
+  margin: 0px;
 }
 
 main .left-side .Sign-up {
@@ -360,17 +375,5 @@ main h1 strong {
   background-image: linear-gradient(90deg, #B16CEA 33.85% #FF5E69 55.21%, #FF8A56 78.13%, #FFA84B 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-main p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: SF Pro Text;
-  font-weight: 400;
-  line-height: 28px;
-  color: gray;
-  font-size: 20px;
-  margin: 0px;
 }
 /*# sourceMappingURL=styles.css.map */
