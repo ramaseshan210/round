@@ -1,0 +1,349 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 76px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1234.75px !important;
+  padding: 0px !important;
+}
+
+header section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header section .logo {
+  cursor: pointer;
+}
+
+header section:first-child {
+  width: 478.75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header section:first-child .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header section:first-child .navigation nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header section:first-child .navigation nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 395px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header section:first-child .navigation nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+header section:first-child .navigation nav ul a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: grey;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  font-family: SF Pro Text;
+}
+
+header section:first-child .navigation nav ul a:hover {
+  color: grey;
+}
+
+header section:last-child {
+  width: auto;
+}
+
+header section:last-child ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  min-width: 212px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header section:last-child ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header section:last-child ul li a {
+  text-decoration: none;
+  color: grey;
+  font-family: SF Pro Text;
+}
+
+header section:last-child ul li:last-child {
+  width: 141px;
+  height: 44px;
+  background: #111827;
+  border-radius: 3px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header section:last-child ul li:last-child a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+main {
+  height: auto;
+}
+
+main section {
+  border: 2px solid;
+  min-height: 642px;
+}
+
+main .container {
+  border: 2px solid grey;
+  width: 1232px !important;
+  height: 402px !important;
+  padding-top: 136px;
+}
+
+main .left-side {
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid;
+  min-height: 374px;
+}
+
+main .left-side .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 224px;
+}
+
+main .left-side .Sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .left-side .Sign-up form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 512px;
+  height: 118px;
+}
+
+main .left-side .Sign-up form label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+main .left-side .Sign-up form .forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .left-side .Sign-up form .forms input {
+  width: 353px;
+  height: 50px;
+  border-radius: 6px;
+  padding: 13px;
+  border: 1px solid grey;
+}
+
+main .left-side .Sign-up form .forms input:focus {
+  outline: none;
+}
+
+main .left-side .Sign-up form .forms input::-webkit-input-placeholder {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+main .left-side .Sign-up form .forms input:-ms-input-placeholder {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+main .left-side .Sign-up form .forms input::-ms-input-placeholder {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+main .left-side .Sign-up form .forms input::placeholder {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+main .left-side .Sign-up form .forms .button {
+  width: 147px;
+}
+
+main .left-side .Sign-up form .forms button {
+  position: relative;
+  width: 141px;
+  height: 44px;
+  border-radius: 3px;
+  background: #111827;
+  color: white;
+}
+
+main .left-side .Sign-up form .forms button::before {
+  position: absolute;
+  content: "";
+  width: 141px;
+  height: 44px;
+  border-radius: 3px;
+  z-index: -1;
+  background: -webkit-gradient(linear, left top, right top, color-stop(33.85%, #B16CEA), color-stop(78.13%, #FF8A56), to(#FFA84B));
+  background: linear-gradient(90deg, #B16CEA 33.85% #FF5E69 55.21%, #FF8A56 78.13%, #FFA84B 100%);
+  margin-top: 6px;
+  margin-left: 6px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+main .left-side .Sign-up form .notice p {
+  margin: 0px;
+  padding: 0px;
+  color: grey;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: grey;
+}
+
+main .left-side .Sign-up form .notice p a {
+  font-style: bold;
+  color: #111827;
+  padding-left: 6px;
+}
+
+main h1 {
+  color: #111827;
+  font-weight: 800;
+  font-size: 60px;
+  margin: 0px;
+  font-family: SF Pro Display;
+  line-height: 60px;
+}
+
+main h1 strong {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(33.85%, #B16CEA), color-stop(78.13%, #FF8A56), to(#FFA84B));
+  background-image: linear-gradient(90deg, #B16CEA 33.85% #FF5E69 55.21%, #FF8A56 78.13%, #FFA84B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 28px;
+  color: gray;
+  font-size: 20px;
+  margin: 0px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,288 @@
+
+body{
+
+}
+
+header{
+ display: flex;
+ height: 76px;
+ align-items: center;
+    
+ .container{
+     display: flex;
+     justify-content: space-between;
+    align-items: center;
+    width: 1234.75px !important;
+    padding: 0px !important;
+
+ }
+ section{
+     display: flex;
+
+    .logo{
+        cursor: pointer;
+    }
+
+     &:first-child{
+         width: 478.75px;
+         display: flex;
+         justify-content: space-between;
+
+         .navigation{
+            display: flex;
+ 
+        
+            nav{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                ul{
+                    display: flex;
+                    padding: 0px;
+                    margin: 0px;
+                    width: 395px;
+                    justify-content: space-between;
+                   
+                  
+                    li{
+                        display: flex;
+                        cursor: pointer;
+                    }
+                    a{
+                        display: flex;
+                        color: grey;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-decoration: none;
+                        font-family: SF Pro Text;
+                        &:hover{
+                            color:grey;
+    
+                        }
+                    }
+                }
+
+            }
+        }   
+     }
+
+     &:last-child{
+        
+         width: auto;
+         ul{
+             display: flex;
+             margin:0px;
+             padding:0px;
+            min-width: 212px;
+            justify-content: space-between;
+            align-items: center;
+            li{
+                display: flex;
+                a{
+                    text-decoration: none;
+                    color: grey;
+                    font-family: SF Pro Text;
+                    
+                }
+
+                &:last-child{
+                   
+
+                    width: 141px;
+                    height: 44px;
+                    background: #111827;
+                    border-radius: 3px;
+                    align-items: center;
+                    justify-content: center;
+                    a{
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: white;
+
+                   
+                    
+                    }
+                }
+            }
+         }
+     }
+
+ }
+}
+
+main{
+    height: auto;
+    section{
+      border: 2px solid;
+      min-height: 642px;
+     
+    }
+    .container{
+        border: 2px solid grey;
+        width: 1232px !important ;
+        height: 402px !important;
+      
+        padding-top: 136px;
+
+
+     
+
+    }
+
+    .left-side{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid;
+        min-height: 374px;
+
+
+        .text{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 224px;
+
+        }
+        .Sign-up{
+            display: flex;
+            flex-direction: column;
+   
+            justify-content: space-between;
+
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 512px;
+                height: 118px;
+
+                label{
+                   
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                }
+
+                .forms{
+                    display: flex;
+                    justify-content: space-between;
+
+                    input{
+                        width:353px;
+                        height: 50px;
+                        border-radius: 6px;
+                       padding: 13px;
+                       border: 1px solid grey;
+
+                       &:focus{
+                        outline: none;
+                       }
+
+                       &::placeholder{
+                        font-family: Inter;
+                        font-weight: 400;
+                        font-size: 16px;
+                       }
+                    }
+
+                    .button{
+                        width: 147px;
+                    }
+
+                    button{
+                        position: relative;
+                        width: 141px;
+                        height: 44px;
+                        border-radius: 3px;
+                        background:#111827;
+                        color:white;
+
+                        &::before{
+                            position: absolute;
+                            content: "";
+                            width: 141px;
+                            height: 44px;
+                            border-radius: 3px;
+                            z-index: -1;
+                            background: linear-gradient(90deg,#B16CEA  33.85%
+                            #FF5E69 55.21%,
+                            #FF8A56  78.13%,
+                            #FFA84B  100%);
+                            margin-top: 6px;
+                            margin-left: 6px;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;;
+                        }
+               
+
+                    }
+                }
+                .notice{
+      
+                    p{
+                        margin: 0px;
+                        padding: 0px;
+                        color: grey;
+                        font-family: 'Inter';
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;    
+                        color: grey;
+                        a{  
+                            font-style: bold;
+                            color: #111827;
+                            padding-left:6px;
+                        }
+                    
+                    
+                    }
+                }
+            }
+        }
+    }
+
+ 
+     h1{
+         color: #111827;
+         font-weight: 800;
+         font-size: 60px;
+         margin: 0px;
+         font-family: SF Pro Display;
+         line-height: 60px;
+         strong{
+            background-image: linear-gradient(90deg,#B16CEA  33.85%
+            #FF5E69 55.21%,
+            #FF8A56  78.13%,
+            #FFA84B  100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            
+         }
+     }
+
+     p{
+         display: flex;
+         font-family: SF Pro Text;
+         font-weight: 400;
+         line-height: 28px;
+         color: gray;
+         font-size: 20px;
+         margin: 0px;
+     }
+
+}
+
+
+
+
+
+
+
+
